@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 90px;
+    background-color: #0A2342; /* Dark blue */
+    color: #EFEFEF; /* Light grey */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar a {
+    color: #EFEFEF; /* Light grey */
+}
+
+.navlogo {
+    height: 80px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("logo.jpeg");
+    background-size: cover;
+    height: 80px;
+    width: 100%;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid #b4abab;
+}
+
+.address {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.address1 {
+    font-size: 1rem;
+    margin-left: 8px;
+}
+
+.addicon {
+    display: flex;
+    align-items: center;
+}
+
+.navsearch {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F0F0F0; /* Subtle grey */
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.searchselect {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.searchinput {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.searchicon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #2E86AB; /* Vibrant blue */
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.navsearch:hover {
+    border: 2px solid orange;
+}
+
+span {
+    font-size: 0.7rem;
+}
+
+.navsecond {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.navcart i {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.panel {
+    height: 40px;
+    background-color: #E5E5E5; /* Light grey */
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panelall {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.panelall i {
+    margin-right: 8px;
+}
+
+.paneloptions p {
+    display: inline;
+    margin-left: 15px;
+}
+
+.paneloptions {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.paneldeals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.hero {
+    background-image: url("hero.jpg"); /* Replace with your image path */
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.54); /* Semi-transparent black */
+}
+
+.heromsg {
+    color: black;
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.heromsg a {
+    color: #007185;
+}
+
+.shopsection {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F9F6F0; /* Soft cream */
+    padding: 20px 0;
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.boximg {
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.boxcontent {
+    margin: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #1B0808; /* Dark grey */
+    color: #F0F0F0; /* Off-white */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 15px;
+}
+.footp2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    padding: 20px;
+    background-color: #f3f3f3; /* Light grey */
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.column:hover {
+    background-color: #e0e0e0; /* Light grey with subtle change */
+}
+
+.column p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.column a {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #333; /* Dark grey */
+    transition: color 0.3s ease;
+}
+
+.column a:hover {
+    color: #007bff; /* Blue */
+}
